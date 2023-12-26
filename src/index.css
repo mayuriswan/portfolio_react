@@ -12,12 +12,22 @@
   scroll-behavior: smooth;
   color-scheme: dark;
 }
-
+.fiverr-seller-content {
+  position: fixed;
+  bottom: 20px; /* Adjust the margin from the bottom as needed */
+  right: 20px; /* Adjust the margin from the right as needed */
+  z-index: 1000;
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.9); /* Optional: Add a background color with some transparency */
+  border-radius: 5px; /* Optional: Add rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow */
+}
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;
   display: block;
 }
+
 
 .black-gradient {
   background: #000000; /* fallback for old browsers */
